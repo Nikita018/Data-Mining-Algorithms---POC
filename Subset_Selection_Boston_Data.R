@@ -1,8 +1,8 @@
 ############################################
-### This code performs subset selection using different methods
+### This code performs subset selection using different methods - Exhaustive, backward and forward subset selection method and comparing them
 ### Nikita Goswami
 ### Created : 23rd Sept
-### Edited : 
+### Edited : 1st Nov
 ############################################
 
 rm(list = ls())
