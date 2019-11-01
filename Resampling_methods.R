@@ -4,7 +4,7 @@
 
 ## Nikita Goswami
 ## Created : 10/31/2019
-## This code is performs in sample methods, resampling methods for estimation of error and model selection.
+## This code performs in sample methods, resampling methods for estimation of error and model selection.
 ##########################
 set.seed(1)
 rm(list = ls())
@@ -145,4 +145,4 @@ lines(error_store, type = "o", lty = 3, col = "green")
 legend("topright", c("training", "test", "bootstrap .632"), lty = c(2,1), col = c("blue", "red", "green"))
 
 
-# Model with 2 attributes - weight and year give the best model. Also Bootstrap model has
+# Model with 2 attributes - weight and year give the best model.Bootstrap method and hold out method both give similar results.
