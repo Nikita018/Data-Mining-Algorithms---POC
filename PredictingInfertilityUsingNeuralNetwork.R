@@ -4,7 +4,7 @@
 
 ## Nikita Goswami
 ## Created : 12/12/2019
-## Neural Networks Lab
+## Predicting Infertility after spontaneous and Induced Abortion using Neural Networks
 ##########################
 
 rm(list = ls())
